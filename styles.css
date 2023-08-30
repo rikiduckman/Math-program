@@ -1,0 +1,37 @@
+body{
+    background-color: gray;
+}
+.container{
+    height: 450px;
+}
+.container-header{
+    text-align: center;
+    background-color: rgb(76, 83, 102);
+    color: aliceblue;
+    height: 40px;
+}
+.container-operator{
+    margin-top: 50px;
+    text-align: center;
+}
+.container-gameArea{
+    margin-top: 30px;
+    height: 200px;
+    text-align: center;
+}
+.item-question{
+    margin-top: 60px;
+}
+.result{
+    margin-top: 50px;
+}
+.item-button{
+    margin-top: 40px;
+}
+.container-footer{
+    background-color: rgb(76, 83, 102);
+    color: aliceblue;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
