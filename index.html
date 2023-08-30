@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> 
+    <script src="java.js"></script>
+    <title>Math game</title>
+</head>
+<body>
+   <div class ="container">
+        <div class="container-header">
+            <h4>เกมคณิตศาสตร์</h4>
+        </div>
+
+        <div class="container-operator">
+            <p>โปรดเลือกเครื่องหมาย :</p>
+            <div>
+            <label for="operation"></label>
+              <div class="operation-buttons">
+                  <label>
+                      <input type="radio" name="operation" value="+">+
+                  </label>
+                  <label>
+                      <input type="radio" name="operation" value="-">-
+                  </label>
+                  <label>
+                      <input type="radio" name="operation" value="*">*
+                  </label>
+                  <label>
+                      <input type="radio" name="operation" value="/">/
+                  </label>
+              </div>
+            </div>
+        </div>
+          <div class="container-gameArea">
+            <button id="startBtn">เริ่ม</button>
+            <input type="text" id="num1" name="num1">
+            <label for="num2"><span id="operationLabel">+</span></label>
+            <input type="text" id="num2" name="num2">
+            <label>=</label>
+            <input type="number" id="result"class="result" placeholder="กรอกคำตอบ">
+            <div class=item-button>
+                <button id="submitBtn">ตอบ</button>
+            </div>
+            <div id="resultMessage" class="result-message-box"></div>
+          </div>
+          <div class="container-footer">
+              <div class="container-score">
+                  <div class="score">
+                      <h5>คะแนน : <span id ="score">0</span>/<span id ="total">0</span></h5>
+                  </div>
+              </div>
+        </div>
+          </div>
+</body>
+</html>
